@@ -1,0 +1,26 @@
+/** @format */
+
+.homeWrapper {
+  background-color: #011627;
+  min-height: 100vh;
+  color: #fff;
+  .homeStart {
+    background: url("../asset/img/firstBg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    .homeNav{
+        position: absolute;
+        width: 100%;
+    }
+  }
+  .homeStart::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: calc(30vh);
+    background: linear-gradient(transparent, #011627);
+  }
+}

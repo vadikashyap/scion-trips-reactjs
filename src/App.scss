@@ -1,0 +1,35 @@
+/** @format */
+
+@font-face {
+  font-family: "NoeDisplay-Bold";
+  src: url("./asset/font/NoeDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: "NoeDisplay";
+  src: url("./asset/font/NoeDisplay-RegularItalic.ttf");
+}
+
+@font-face {
+  font-family: "Larsseit-Bold";
+  src: url("./asset/font/Larsseit-Bold.otf");
+}
+@font-face {
+  font-family: "Larsseit";
+  src: url("./asset/font/Larsseit-Medium.otf");
+}
+
+h1,
+h2 {
+  font-family: "NoeDisplay-Bold" !important;
+}
+h3,
+h4,
+h5 {
+  font-family: "Larsseit-Bold" !important;
+}
+b {
+  font-family: "Larsseit-Bold" !important;
+}
+p{
+    font-family: "Larsseit" !important;  
+}
