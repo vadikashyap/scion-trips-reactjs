@@ -1,0 +1,71 @@
+/** @format */
+.pickYourTripWrapper::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  background: url("../../asset/img/bgDots.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  z-index: -1;
+}
+.pickYourTripWrapper {
+  background: url("../../asset/img/bgDots.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+
+  .pickYourTripTitleWrapper {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    .pickYourTripSubtitle {
+      max-width: 400px;
+      margin-bottom: 0;
+      font-weight: normal;
+      font-size: 16px;
+    }
+  }
+  .tabWrapper {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    .tripTab {
+      display: table;
+      width: 100%;
+      border-color: #41ead4 !important;
+      li {
+        float: none;
+        display: table-cell;
+        :hover {
+          border-color: transparent;
+        }
+      }
+      .nav-link.active {
+        color: #41ead4;
+        background-color: transparent;
+        border-color: rgba(255, 255, 255, 0);
+        border-bottom: 4px solid #41ead4;
+      }
+      li > button {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-family: "Larsseit";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 110%;
+        text-align: center;
+        color: #ffffff;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+.ponter {
+  cursor: pointer;
+}
