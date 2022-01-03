@@ -3,6 +3,7 @@
 import React from "react";
 import IntroSection from "../components/IntroSection";
 import NavBar from "../components/Navbar";
+import PickYourTrip from "../components/PickYourTrip";
 import "./styles.scss";
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
           <NavBar />
         </div>
         <IntroSection />
+      </div>
+      <div className='homeTrip'>
+        <PickYourTrip />
       </div>
     </div>
   );

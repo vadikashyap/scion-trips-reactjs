@@ -10,9 +10,9 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    .homeNav{
-        position: absolute;
-        width: 100%;
+    .homeNav {
+      position: absolute;
+      width: 100%;
     }
   }
   .homeStart::after {
@@ -20,7 +20,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: calc(30vh);
+    height: calc(50vh);
     background: linear-gradient(transparent, #011627);
   }
 }
