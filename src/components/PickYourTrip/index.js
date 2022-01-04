@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Tab, Tabs } from "react-bootstrap";
 import Close from "../../asset/icon/Close";
+import ChillAdventure from "./ChillAdventure";
 import "./styles.scss";
 const PickYourTrip = () => {
   const [show, setShow] = useState(true);
@@ -31,7 +32,7 @@ const PickYourTrip = () => {
             id='uncontrolled-tab-example'
             className='mb-3 tripTab mt-5'>
             <Tab eventKey='Chill Adventure' title='Chill Adventure'>
-              dwfeelkfjenfked
+              <ChillAdventure />
             </Tab>
             <Tab eventKey='Spooky Times' title='Spooky Times'>
               wefl;welfl;qmlsd
