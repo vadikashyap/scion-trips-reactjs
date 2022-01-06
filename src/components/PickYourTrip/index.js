@@ -124,6 +124,9 @@ const PickYourTrip = () => {
           </Tabs>
         </div>
       </div>
+      <div className="aboutWrapper">
+
+      </div>
     </div>
   );
 };
