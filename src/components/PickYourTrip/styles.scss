@@ -73,4 +73,12 @@
   min-height: 100vh;
   background-position: top right;
   background-size: cover;
+
+  .aboutImage {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      width: 50%;
+    }
+  }
 }
