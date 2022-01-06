@@ -10,6 +10,8 @@ import img2 from "../../asset/img/chilliadventures2.jpg";
 import img3 from "../../asset/img/chilliadventures3.jpg";
 import img4 from "../../asset/img/chilliadventures4.jpg";
 import img5 from "../../asset/img/chilliadventures5.jpg";
+import ButtonComponent from "../Button";
+import Image1 from "../../asset/img/men1.png";
 const PickYourTrip = () => {
   const [show, setShow] = useState(true);
   const toggelView = () => setShow(!show);
@@ -124,8 +126,33 @@ const PickYourTrip = () => {
           </Tabs>
         </div>
       </div>
-      <div className="aboutWrapper">
-
+      <div className='aboutWrapper'>
+        <div className='container pt-5'>
+          <div className='row pt-5'>
+            <div className='col-md-5 pt-5'>
+              <h1>About Us</h1>
+              <p>We’re a team of four passioned people.</p>
+              <p>
+                We’re ready to take the world by storm and let you find new
+                travel opportunities.
+              </p>
+              <p>
+                Our everyday task is to make sure that you satisfied with the
+                services and products that we provide.
+              </p>
+              <p>With 💖 from Amsterdam, Netherlands.</p>
+              <ButtonComponent name='READ MORE ABOUT US' />
+            </div>
+            <div className='col-md-7'>
+              <div className='aboutImage'>
+                <img src={Image1} />
+                <img src={Image1} />
+                <img src={Image1} />
+                <img src={Image1} />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
