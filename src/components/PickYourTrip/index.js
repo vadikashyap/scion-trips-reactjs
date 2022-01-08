@@ -12,10 +12,19 @@ import img4 from "../../asset/img/chilliadventures4.jpg";
 import img5 from "../../asset/img/chilliadventures5.jpg";
 import ButtonComponent from "../Button";
 import Image1 from "../../asset/img/men1.png";
+import Image2 from "../../asset/img/men2.png";
+import Image3 from "../../asset/img/men3.png";
+import Image4 from "../../asset/img/men4.png";
+import AboutImg from "./AboutImg";
 const PickYourTrip = () => {
   const [show, setShow] = useState(true);
   const toggelView = () => setShow(!show);
-
+  const user = [
+    { name: "MARTIN JACK", img: Image1, position: "ceo" },
+    { name: "John smith", img: Image2, position: "devloper" },
+    { name: "Debra D. Taylor", img: Image3, position: "HR" },
+    { name: "Donald J. King", img: Image4, position: "ceo" },
+  ];
   const tripData = [
     {
       tripCategory: "Chill Adventure",
@@ -92,7 +101,7 @@ const PickYourTrip = () => {
 
   return (
     <div className='pickYourTripWrapper'>
-      <div className='container  pt-4'>
+      <div className='container  pt-5'>
         <div className='pickYourTripTitleWrapper'>
           <h1 onClick={!show && toggelView} className={!show ? "ponter" : ""}>
             Pick your trip
@@ -145,10 +154,9 @@ const PickYourTrip = () => {
             </div>
             <div className='col-md-7'>
               <div className='aboutImage'>
-                <img src={Image1} />
-                <img src={Image1} />
-                <img src={Image1} />
-                <img src={Image1} />
+                {user.map((data, i) => (
+                  <AboutImg key={i} data={data} />
+                ))}
               </div>
             </div>
           </div>
