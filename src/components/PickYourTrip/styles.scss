@@ -74,6 +74,7 @@
   background-position: top right;
   background-size: cover;
   padding: 93px 0 700px;
+  overflow: hidden;
   .aboutImage::after {
     content: "";
     background: url("../../asset/img/DotsBg.png");
