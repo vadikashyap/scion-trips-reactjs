@@ -3,7 +3,7 @@
 import React from "react";
 import IntroSection from "../components/IntroSection";
 import NavBar from "../components/Navbar";
-import PeopleTthoughts from "../components/PeopleTthoughts";
+import PeopleThoughts from "../components/PeopleThoughts";
 import PickYourTrip from "../components/PickYourTrip";
 import "./styles.scss";
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
       </div>
       <div className='homeTrip'>
         <PickYourTrip />
-        <PeopleTthoughts />
+        <PeopleThoughts />
       </div>
     </div>
   );

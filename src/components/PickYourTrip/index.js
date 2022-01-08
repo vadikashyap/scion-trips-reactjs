@@ -23,7 +23,7 @@ const PickYourTrip = () => {
     { name: "MARTIN JACK", img: Image1, position: "ceo" },
     { name: "John smith", img: Image2, position: "devloper" },
     { name: "Debra D. Taylor", img: Image3, position: "HR" },
-    { name: "Donald J. King", img: Image4, position: "ceo" },
+    { name: "King J. Donald", img: Image4, position: "ceo" },
   ];
   const tripData = [
     {
@@ -112,7 +112,7 @@ const PickYourTrip = () => {
               <p className='pickYourTripSubtitle'>
                 Our team put together some trips to you to discover, feel free
                 to discover each of them.
-              </p>{" "}
+              </p>
             </>
           )}
         </div>
