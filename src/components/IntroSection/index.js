@@ -12,7 +12,7 @@ const IntroSection = () => {
   return (
     <div className='introSectionWrapper'>
       <div className='introSectionText'>
-        <h1 className='introTitle'>Night Trips</h1>
+        <h1 className='introTitle'>Night Trips 7878</h1>
         <p className='introSubTitle'>
           <b>WE GOT TRIPS FOR THE TRIPPSTER IN YOU</b>
         </p>
