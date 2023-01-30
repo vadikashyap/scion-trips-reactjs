@@ -1,0 +1,55 @@
+/** @format */
+
+.peopleThoughtsWrapper {
+  background: #011627;
+  min-height: 100vh;
+  margin-top: -550px;
+  z-index: 15;
+  padding: 60px 0;
+  position: relative;
+  .thoughtsTitle {
+    text-align: center;
+    h1 {
+      padding-bottom: 15px;
+      font-weight: bold;
+      font-size: 48px;
+    }
+    p {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 150%;
+      /* or 36px */
+
+      text-align: center;
+      letter-spacing: 0.15em;
+    }
+  }
+  .thought {
+    background: #02223b;
+    padding: 30px;
+    margin: 13px 0;
+    box-shadow: 0px 20px 30px rgba(0, 201, 224, 0.03);
+    border-radius: 5px;
+    display: flex;
+    .iconWrapper {
+      margin: 20px;
+    }
+    .containWrapper {
+      p {
+        margin: 0;
+      }
+      h4 {
+        font-size: 20px;
+      }
+    }
+    .userWrapper {
+      display: flex;
+      padding-top: 15px;
+      align-items: center;
+      column-gap: 15px;
+      img {
+        border-radius: 5px;
+      }
+    }
+  }
+}

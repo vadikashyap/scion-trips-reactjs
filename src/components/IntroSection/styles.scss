@@ -1,0 +1,48 @@
+/** @format */
+
+.introSectionWrapper {
+  min-height: calc(100vh);
+  display: flex;
+  align-items: center;
+  .introSectionText {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .introTitle {
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .introSubTitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .introText {
+    font-size: 17px;
+    line-height: 150%;
+  }
+  .actions {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 22vh;
+    width: 90%;
+    z-index: 10;
+    margin-left: 5%;
+    align-items: center;
+    .scroolText {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      transform: rotate(270deg);
+    }
+    ul {
+      list-style: none;
+      li {
+        margin: 10px;
+      }
+    }
+  }
+}
